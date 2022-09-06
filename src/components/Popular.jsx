@@ -26,7 +26,7 @@ function Popular() {
         
             localStorage.setItem("popular", JSON.stringify(data.recipes));
             setPopular(data.recipes)
-            
+            console.log(data);
         }
         //https://api.spoonacular.com/recipes/716429/information?apiKey=YOUR-API-KEY&includeNutrition=true.
         
